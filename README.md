@@ -6,32 +6,28 @@
 
 <h1 align="center">Reto Frontend. </h1>
 
-Servicios SC tiene como necesidad crear un nuevo módulo en su aplicación web donde se inserten los créditos que realiza un almacén, además de listar la cantidad de créditos creados donde se pueda modificar el valor por el cual se realizó el crédito.
-Los datos del cliente a recopilar y mostrar son:
+<p> Servicios SC tiene como necesidad crear un nuevo módulo en su aplicación web donde se inserten los créditos que realiza un almacén, además de listar la cantidad de créditos creados donde se pueda modificar el valor por el cual se realizó el crédito.
+Los datos del cliente a recopilar y mostrar son:</p>
 
-##| | 
----|---|---
-1|•	Nombres.
-2|•	Apellidos.
-3|•	Número de celular.
-4|•	Correo electrónico.
-5|•	Tipo de identificación.
-5|•	Número de identificación.
-6|•	Dirección de residencia.
-7|•	Ubicación (ciudad, barrio).
-8|•	Valor total del crédito.
-9|•	Número de cuotas.
----
+<p>•	Nombres.</p>
+<p>•	Apellidos.</p>
+<p>•	Número de celular.</p>
+<p>•	Correo electrónico.</p>
+<p>•	Tipo de identificación.</p>
+<p>•	Número de identificación.</p>
+<p>•	Dirección de residencia.</p>
+<p>•	Ubicación (ciudad, barrio).</p>
+<p>•	Valor total del crédito.</p>
+<p>•	Número de cuotas.</p>
 
 <h5>Criterios de Aceptación:</h5>
-##| | 
----|---|---
-11|La aplicación deberá contar con las siguientes características:
-12|•	Una página en la cual se listen los créditos realizados.
-13|•	Una opción de búsqueda para los créditos. 
-14|•	Un formulario de inserción de créditos.
-15|•	Una acción para modificar los datos del crédito, uno a la vez.
----
+
+<p>La aplicación deberá contar con las siguientes características:</p>
+<p>•	Una página en la cual se listen los créditos realizados.</p>
+<p>•	Una opción de búsqueda para los créditos. </p>
+<p>•	Un formulario de inserción de créditos.</p>
+<p>•	Una acción para modificar los datos del crédito, uno a la vez.</p>
+
 
 
 
