@@ -1,0 +1,44 @@
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Teléfono</th>
+            <th scope="col">Correo electrónico</th>
+            <th scope="col">Tipo identificación</th>
+            <th scope="col">Número identificación</th>
+            <th scope="col">Dirección</th>
+            <th scope="col">Ubicación</th>
+            <th scope="col">Valor crédito</th>
+            <th scope="col">Número cuotas</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+
+    
+          <tr class="table-default" *ngFor=" let item of fakeData | paginate: { itemsPerPage: 6, currentPage: pageActual } ">
+            <th scope="row">{{item.name}} </th>
+            <td> {{item.lastName}}</td>
+            <td>{{item.phone}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.typeId}}</td>
+            <td>{{item.id}}</td>
+            <td>{{item.adress}}</td>
+            <td>{{item.location}}</td>
+            <td>{{item.valueCredit}}</td>
+            <td>{{item.dues}}</td>
+            <td class= "btn-group " role="group">
+                <button type="button" class="btn btn-secondary btn-sm m-2 " (click)="onGoToEdit(item)">Editar</button>
+                <button type="button" class="btn btn-secondary btn-sm m-2" (click)="onGoToSee(item)">    ver</button>
+                <button type="button" class="btn btn-danger btn-sm m-2" (click)="onGoToDelete(item)">Eliminar</button>
+            </td>
+          </tr>
+    
+        </tbody>
+    </table>
+    
+    <pagination-controls class="paginate" (pageChange)="pageActual=$event"></pagination-controls>
+      
+</div>

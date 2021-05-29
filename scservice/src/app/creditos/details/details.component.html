@@ -1,0 +1,45 @@
+<div class="card mt-1">
+    <div class="card-header">
+       DETALLE DEL CREDITO
+    </div>
+    <div class="  card-body container ">
+        <ul class="size list-group list-group-flush">
+            <li class="list-group-item">
+                Nombre: <h6>{{client.name}}</h6>
+            </li>
+            <li class="list-group-item">
+                Apellido: <h6>{{client.lastName}}</h6>
+            </li>
+            <li class="list-group-item">
+                Telefono: <h6>{{client.phone}}</h6>
+            </li>
+            <li class="list-group-item">
+                Correo electónico: <h6>{{client.email}}</h6>
+            </li>
+            <li class="list-group-item">
+                Tipo de Identificación: <h6>{{client.typeId}}</h6>
+            </li>
+            <li class="list-group-item">
+                N° de identificación: <h6>{{client.id}}</h6>
+            </li>
+            <li class="list-group-item">
+                Dirección: <h6>{{client.adress}}</h6>
+            </li>
+            <li class="list-group-item">
+                Ubicación: <h6>{{client.location}}</h6>
+            </li>
+            <li class="list-group-item">
+                Valor Crédito: <h6>{{client.valueCredit}}</h6>
+            </li>
+            <li class="list-group-item">
+                N° cuotas: <h6>{{client.dues}}</h6>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-group buttons " role="group">
+        <button type="button" class=" buttons-bt btn-group btn-secondary  " (click)="onGoToEdit()">Editar</button>
+        <button type="button" class=" buttons-bt btn-group btn-secondary " (click)="onDelete()">Borrar</button>
+        <button type="button" class=" buttons-bt btn-group btn-secondary"(click)="onGoBackToList()">Regresar a la lista </button>
+    </div>
+
+</div>

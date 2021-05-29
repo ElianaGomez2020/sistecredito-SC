@@ -1,0 +1,22 @@
+.options{
+    display: none;
+    list-style: none;
+    position: absolute;
+}
+.options:hover{
+    display: block;
+}
+.paginate ::ng-deep .ngx-pagination  {
+
+    display: flex;
+    justify-content: center;
+    background-color: #f2f3f4;
+    align-items: center;
+
+}
+.paginate ::ng-deep .ngx-pagination .current {
+
+    background-color:black;
+
+
+}

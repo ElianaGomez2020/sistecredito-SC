@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "sc-credits": {
+      "hosting": {
+        "scservice": [
+          "sc-credits"
+        ]
+      }
+    }
+  }
+}

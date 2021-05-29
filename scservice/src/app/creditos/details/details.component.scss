@@ -1,0 +1,23 @@
+.size {
+    margin: 0px 50px 10px 50px;
+    padding-left:80px ;
+    display: flex;
+    justify-content:left;
+    text-align: left;
+    align-items: left;
+    border: rgb(27, 26, 26) 1px solid;
+}
+.buttons{
+    margin: 0px 50px 50px 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.buttons-bt{
+    width: 20%;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}

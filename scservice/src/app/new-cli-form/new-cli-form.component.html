@@ -1,0 +1,54 @@
+<form class= "m-20 mt-10 col-sm-5 col-form-label col-sm-4 col-sm-offset-4 center  " (ngSubmit)="onSave()" [formGroup]="creditForm" >
+    <div class="form-row mt-10">
+        <div class="form-group col-lg-50">
+            <input type="text" class="form-control" placeholder="Nombre" formControlName="name">
+        </div>
+        <div class="form-group ccol-lg-50">
+            <input type="text" class="form-control" placeholder="Apellido" formControlName="lastName">
+        </div>
+        <div class="form-group col-lg-50">
+            <input type="text" class="form-control" placeholder="Telefono" formControlName="phone">
+        </div>
+        <div class="form-group col-lg-50">
+            <input type="text" class="form-control" placeholder="correo electrónico" formControlName="email">
+
+        </div>
+        <div class="form-group col-lg-50" >
+            <label for="Select" class=" form-control form-label "> 
+                <select  class="form-select" id="Select" formControlName="typeId" >
+                    <option disabled value="">Tipo de identificación</option>
+                    <option>Cedula de cuidadanía</option>
+                    <option>Pasaporte</option>
+                  </select>
+            </label>
+  
+        </div>
+        <div class="form-group col-lg-50">
+            <input type="text" class="form-control" placeholder="N° identificación" formControlName="id">
+        </div>
+        <div class="form-group col-lg-50">
+            <input type="text" class="form-control" placeholder="Dirección" formControlName="adress">
+        </div>
+        <div class="form-group col-lg-50">
+            <input type="text" class="form-control" placeholder="Ubicación" formControlName="location">
+        </div>
+        <div class="form-group col-lg-50">
+            <input type="text" class="form-control" placeholder="Valor del crédito" formControlName="valueCredit">
+        </div>
+        <div class="form-group col-lg-50">
+            <input type="text" class="form-control" placeholder="N° cuotas" formControlName="dues">
+        </div>
+    </div>
+    <div class="size">
+        <button type="submit" class="  btn bg-dark btn-block text-light m-2 " (click)="onSave()">Guardar</button>
+        <button type="button" class=" btn bg-dark btn-block text-light m-2"(click)="onGoBackToList()">Regresar a la lista </button>
+
+    </div>
+
+</form>
+
+
+
+  
+  
+
