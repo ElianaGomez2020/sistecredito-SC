@@ -4,14 +4,13 @@
      </p>
 </p>
 
-<h1 align="center">0-Day </h1>
-
-###Reto Frontend.
+<h1 align="center">Reto Frontend. </h1>
 
 Servicios SC tiene como necesidad crear un nuevo módulo en su aplicación web donde se inserten los créditos que realiza un almacén, además de listar la cantidad de créditos creados donde se pueda modificar el valor por el cual se realizó el crédito.
 Los datos del cliente a recopilar y mostrar son:
 
-
+##| | 
+---|---|---
 1|•	Nombres.
 2|•	Apellidos.
 3|•	Número de celular.
@@ -22,23 +21,17 @@ Los datos del cliente a recopilar y mostrar son:
 7|•	Ubicación (ciudad, barrio).
 8|•	Valor total del crédito.
 9|•	Número de cuotas.
+---
 
-
-###Criterios de Aceptación:
-
+<h5>Criterios de Aceptación:</h5>
+##| | 
+---|---|---
 11|La aplicación deberá contar con las siguientes características:
 12|•	Una página en la cual se listen los créditos realizados.
 13|•	Una opción de búsqueda para los créditos. 
 14|•	Un formulario de inserción de créditos.
 15|•	Una acción para modificar los datos del crédito, uno a la vez.
-
-
-
-<p align="center">
-    <h2 align="center">By, Eliana Gómez S</h2>
-        
-</p>
-
+---
 
 
 
