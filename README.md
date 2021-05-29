@@ -11,7 +11,7 @@
 Servicios SC tiene como necesidad crear un nuevo módulo en su aplicación web donde se inserten los créditos que realiza un almacén, además de listar la cantidad de créditos creados donde se pueda modificar el valor por el cual se realizó el crédito.
 Los datos del cliente a recopilar y mostrar son:
 
----|---|--
+
 1|•	Nombres.
 2|•	Apellidos.
 3|•	Número de celular.
@@ -22,11 +22,10 @@ Los datos del cliente a recopilar y mostrar son:
 7|•	Ubicación (ciudad, barrio).
 8|•	Valor total del crédito.
 9|•	Número de cuotas.
----
+
 
 ###Criterios de Aceptación:
 
----|---|--
 11|La aplicación deberá contar con las siguientes características:
 12|•	Una página en la cual se listen los créditos realizados.
 13|•	Una opción de búsqueda para los créditos. 
