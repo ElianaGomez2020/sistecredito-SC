@@ -16,7 +16,6 @@ export class DetailsComponent implements OnInit {
 
   };
 
-  
   constructor(private router: Router) {
     const navigation = this.router.getCurrentNavigation();
     this.client = navigation?.extras?.state?.value;    
@@ -32,7 +31,6 @@ export class DetailsComponent implements OnInit {
     this.router.navigate(['edit'], this.navigationExtras.state);
     
   }
- 
 
   onDelete(): void{
     alert('Eliminado')

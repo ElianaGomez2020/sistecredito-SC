@@ -5,7 +5,6 @@ import { DetailsRoutingModule } from './details-routing.module';
 import { DetailsComponent } from './details.component';
 import {NgxPaginationModule} from 'ngx-pagination';
 
-
 @NgModule({
   declarations: [
     DetailsComponent
